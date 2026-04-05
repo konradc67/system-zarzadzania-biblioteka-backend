@@ -1,3 +1,8 @@
+// Endpoint do pingowania z frontendu
+app.get('/ping', (req, res) => {
+  res.status(200).send('Pong! Serwer nie śpi.');
+});
+
 const express = require('express');
 const cors = require('cors');
 
