@@ -1,8 +1,3 @@
-// Endpoint do pingowania z frontendu
-app.get('/ping', (req, res) => {
-  res.status(200).send('Pong! Serwer nie śpi.');
-});
-
 const express = require('express');
 const cors = require('cors');
 
@@ -30,4 +25,9 @@ app.get('/api/ksiazki', (req, res) => {
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Serwer wystartował na porcie http://localhost:${PORT}`);
+});
+
+// Endpoint do pingowania z frontendu
+app.get('/ping', (req, res) => {
+  res.status(200).send('Pong! Serwer nie śpi.');
 });
