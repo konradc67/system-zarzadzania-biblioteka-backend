@@ -16,6 +16,9 @@ npm run dev
 ```
 Domyślnie serwer nasłuchuje na porcie http://localhost:3000.
 
+Aby uruchomić projekt z serwera zdalnego po puszczeniu zmian na GitHub można po 50 sekundach czekania sprawdzić efekty na: 
+https://system-zarzadzania-biblioteka-backend.onrender.com/
+
 ⚠️ Ważne uwagi
 Przed wysłaniem zmian na GitHub upewnij się, że plik .gitignore zawiera wpis node_modules/, aby nie przesyłać niepotrzebnych plików.
 
